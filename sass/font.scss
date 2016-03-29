@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'HelveticaNeueLT Arabic 75 Bold';
+  src: url('../font/helveticaneueltarabicbold.eot?90442246');
+  src: url('../font/helveticaneueltarabicbold.eot?90442246#iefix') format('embedded-opentype'),
+       url('../font/helveticaneueltarabicbold.woff2?90442246') format('woff2'),
+       url('../font/helveticaneueltarabicbold.woff?90442246') format('woff'),
+       url('../font/helveticaneueltarabicbold.ttf?90442246') format('truetype'),
+       url('../font/helveticaneueltarabicbold.svg?90442246#HelveticaNeueLTArabic-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$primary-font : 'HelveticaNeueLT Arabic 75 Bold',
+Sans-Serif;

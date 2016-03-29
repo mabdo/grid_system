@@ -1,0 +1,33 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "sass/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            },
+            "linting.collapsed": false,
+            "fonts.fontSize": "12px"
+        },
+        "sass/*.scss": {
+            "sass.enabled": false
+        }
+    },
+    "jscompiler": {
+        "outputs": [
+            {
+                "inputs": [
+                    "../ukit/bower_components/jquery/dist/jquery.min.js",
+                    "js/custom.js"
+                ],
+                "output": "js/custom.min.js",
+                "generateMap": true,
+                "mangle": true,
+                "isolate": false
+            }
+        ]
+    }
+}
